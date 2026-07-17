@@ -1,21 +1,105 @@
-<<<<<<< HEAD
-# React + Vite
+# Alfee Khan — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal portfolio site built with React + Vite, showcasing full-stack projects, technical skills, and a downloadable resume.
 
-Currently, two official plugins are available:
+🔗 **Live Site:** [add your Vercel URL here once deployed]
+📦 **Repo:** [github.com/Alfee123-web/developer-portfolio](https://github.com/Alfee123-web/developer-portfolio)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Animated waveform signature in the hero section (canvas-based, respects `prefers-reduced-motion`)
+- Scroll-triggered reveal animations across sections
+- Responsive layout with a mobile navigation menu
+- Categorized technical skills (Languages, Frontend, Backend, Databases, Auth & Cloud, Tooling)
+- Detailed project cards with live demo and source code links
+- Downloadable résumé (PDF)
+- Direct contact links (email, GitHub, LinkedIn, LeetCode)
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# developer-portfolio
-Personal portfolio website showcasing full-stack web development projects, software engineering skills, and creative work. Built with React and Node.js.
->>>>>>> 06d7e92206c1d5eff7832daff493876775271679
+## 🛠️ Tech Stack
+
+| Layer | Tools |
+|---|---|
+| Framework | React (Vite) |
+| Styling | Custom CSS (embedded, no external framework) |
+| Fonts | Space Grotesk, Inter, JetBrains Mono (Google Fonts) |
+| Deployment | Vercel |
+
+---
+
+## 📂 Project Structure
+
+```
+alfee-portfolio/
+├── public/
+│   ├── profile-photo.jpeg
+│   └── Alfee_Khan_Resume.pdf
+├── src/
+│   ├── App.jsx        # Main portfolio component
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Alfee123-web/developer-portfolio.git
+cd developer-portfolio
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the dev server
+```bash
+npm run dev
+```
+
+The site will be running at `http://localhost:5173`.
+
+### 4. Build for production
+```bash
+npm run build
+```
+
+---
+
+## 📦 Featured Projects
+
+### 🌊 [Wanderly](https://github.com/Alfee123-web/Wanderly)
+Full-stack Airbnb-style rental listing platform — Node.js, Express, MongoDB, EJS, Passport.js, Cloudinary, Mapbox GL JS.
+🔗 [Live Demo](https://wanderly-three-opal.vercel.app)
+
+### 🌦️ [Weather App](https://github.com/Alfee123-web/Weather-App-MaterialUI)
+Real-time weather dashboard built with React (Vite) and Material UI.
+🔗 [Live Demo](https://weather-app-material-ui.vercel.app)
+
+---
+
+## 📫 Contact
+
+- **Email:** alfeekhan20@gmail.com
+- **LinkedIn:** [linkedin.com/in/alfeekhan509815340](https://linkedin.com/in/alfeekhan509815340)
+- **GitHub:** [github.com/Alfee123-web](https://github.com/Alfee123-web)
+- **LeetCode:** [leetcode.com/u/alfeekhan](https://leetcode.com/u/alfeekhan)
+
+---
+
+## 📄 License
+
+This project is open source and available for reference. Feel free to fork it, but please don't copy the content as-is — build your own story into it.
