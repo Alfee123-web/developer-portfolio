@@ -124,23 +124,23 @@ function Reveal({ children, className = "", delay = 0 }) {
 const SKILLS = [
   {
     label: "LANGUAGES",
-    items: ["C++", "JavaScript (ES6+)", "HTML5", "CSS3", "SQL"],
+    items: ["JavaScript (ES6+)", "TypeScript", "C++", "HTML5", "CSS3", "SQL"],
   },
   {
     label: "FRONTEND",
-    items: ["React.js", "Next.js", "EJS", "Bootstrap 5", "Material UI", "Tailwind"],
+    items: ["React.js", "Next.js", "Tailwind CSS v4", "Material UI", "Bootstrap 5", "Vite"],
   },
   {
     label: "BACKEND",
-    items: ["Node.js", "Express.js", "REST APIs", "MVC Architecture"],
+    items: ["Node.js", "Express.js", "REST APIs", "Prisma", "MVC Architecture"],
   },
   {
     label: "DATABASES",
-    items: ["MongoDB · Mongoose", "MySQL"],
+    items: ["PostgreSQL", "MongoDB · Mongoose", "MySQL"],
   },
   {
     label: "AUTH & CLOUD",
-    items: ["Passport.js", "Cloudinary", "Mapbox GL JS", "Joi Validation"],
+    items: ["Auth.js/NextAuth v5", "AWS (EC2, S3, IAM)", "Passport.js", "Cloudinary", "Mapbox GL JS"],
   },
   {
     label: "TOOLING",
@@ -149,6 +149,20 @@ const SKILLS = [
 ];
 
 const PROJECTS = [
+  {
+    year: "2026",
+    name: "RenewVault",
+    tagline: "Subscription & renewal tracking dashboard",
+    stack: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "PostgreSQL", "Prisma", "Auth.js/NextAuth v5", "Resend"],
+    features: [
+      "Multi-currency spending summary (INR/USD/EUR/GBP), filterable and sortable renewal lists with live per-status counts",
+      "Mobile-first navigation — dedicated top bar and bottom tab bar, plus a collapsible desktop sidebar",
+      "Token-driven CSS custom-property design system for consistent theming across the app",
+      "Shared REST API contracts with a backend teammate; automated renewal-reminder emails via Resend and scheduled cron jobs",
+    ],
+    live: "https://www.renewvault.me/",
+    source: "https://github.com/Alfee123-web/renewvault",
+  },
   {
     year: "2025",
     name: "Wanderly",
@@ -409,8 +423,9 @@ export default function Portfolio() {
             end to end.
           </h1>
           <p>
-            MERN-stack developer and DSA practitioner in C++ — I care about
-            clean architecture as much as clean UI, and I'm currently looking
+            Full-stack developer across the MERN and Next.js/PostgreSQL
+            stacks, and a DSA practitioner in C++ — I care about clean
+            architecture as much as clean UI, and I'm currently looking
             for internship opportunities where I can build things that ship.
           </p>
           <div className="pf-cta-row">
@@ -488,7 +503,7 @@ export default function Portfolio() {
         <Reveal className="pf-section-head">
           <span className="pf-kicker pf-mono">WORK</span>
           <h2 className="pf-display">Featured projects</h2>
-          <p>Three shipped, deployed builds — from a full rental platform to a real-time weather app.</p>
+          <p>Three shipped, deployed builds — from a subscription tracker to a full rental platform and a real-time weather app.</p>
         </Reveal>
 
         {PROJECTS.map((p) => (
@@ -528,7 +543,7 @@ export default function Portfolio() {
                 and certifications in one place.
               </p>
             </div>
-            <a href="/Alfee_Khan_Resume.pdf" download className="pf-btn-primary">Download résumé ↓</a>
+     <a href="/Alfee_Khan_Resume latest 2.pdf" download="Alfee_Khan_Resume.pdf" className="pf-btn-primary">Download résumé ↓</a>
           </div>
         </Reveal>
       </section>
