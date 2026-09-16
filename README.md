@@ -14,7 +14,7 @@ A personal portfolio site built with React + Vite, showcasing full-stack project
 - Responsive layout with a mobile navigation menu
 - Categorized technical skills (Languages, Frontend, Backend, Databases, Auth & Cloud, Tooling)
 - Detailed project cards with live demo and source code links
-- Downloadable résumé (PDF)
+- Downloadable résumé (PDF) with properly configured routing and download attributes
 - Direct contact links (email, GitHub, LinkedIn, LeetCode)
 
 ---
@@ -32,22 +32,19 @@ A personal portfolio site built with React + Vite, showcasing full-stack project
 
 ## 📂 Project Structure
 
-```
+```text
 alfee-portfolio/
 ├── public/
 │   ├── profile-photo.jpeg
-│   └── Alfee_Khan_Resume.pdf
+│   └── Alfee_Khan_Resume latest 2.pdf
 ├── src/
-│   ├── App.jsx        # Main portfolio component
+│   ├── App.jsx        # Main portfolio component (contains resume download logic)
 │   ├── App.css
 │   ├── index.css
 │   └── main.jsx
 ├── index.html
 ├── package.json
 └── vite.config.js
-```
-
----
 
 ## 🚀 Getting Started (Local Setup)
 
@@ -56,7 +53,7 @@ alfee-portfolio/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Alfee123-web/developer-portfolio.git
+git clone [https://github.com/Alfee123-web/developer-portfolio.git](https://github.com/Alfee123-web/developer-portfolio.git)
 cd developer-portfolio
 ```
 
@@ -88,6 +85,10 @@ Full-stack Airbnb-style rental listing platform — Node.js, Express, MongoDB, E
 ### 🌦️ [Weather App](https://github.com/Alfee123-web/Weather-App-MaterialUI)
 Real-time weather dashboard built with React (Vite) and Material UI.
 🔗 [Live Demo](https://weather-app-material-ui.vercel.app)
+
+### 🔄 RenewVault
+A full-stack subscription and renewal tracking web application that helps users manage recurring subscriptions, upcoming renewals, and reminders in a clean, responsive dashboard.
+🔗 [Live Demo](https://www.renewvault.me/)
 
 ---
 
