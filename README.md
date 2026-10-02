@@ -2,7 +2,7 @@
 
 A personal portfolio site built with React + Vite, showcasing full-stack projects, technical skills, and a downloadable resume.
 
-🔗 **Live Site:** alfee-khan.vercel.app
+🔗 **Live Site:** https://developer-portfolio-nine-zeta.vercel.app/
 📦 **Repo:** [github.com/Alfee123-web/developer-portfolio](https://github.com/Alfee123-web/developer-portfolio)
 
 ---
