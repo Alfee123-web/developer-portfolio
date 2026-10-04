@@ -2,7 +2,7 @@
 
 A modern, animated developer portfolio built with React + Vite, showcasing full-stack projects, technical skills, certifications, coding profiles, and a downloadable resume.
 
-🔗 **Live Site:** https://developer-portfolio-nine-zeta.vercel.app/
+🔗 **Live Site:** alfeekhan.vercel.app
 📦 **Repo:** [github.com/Alfee123-web/developer-portfolio](https://github.com/Alfee123-web/developer-portfolio)
 
 ---
