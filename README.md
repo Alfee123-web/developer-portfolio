@@ -1,6 +1,6 @@
 # Alfee Khan — Developer Portfolio
 
-A personal portfolio site built with React + Vite, showcasing full-stack projects, technical skills, and a downloadable resume.
+A modern, animated developer portfolio built with React + Vite, showcasing full-stack projects, technical skills, certifications, coding profiles, and a downloadable resume.
 
 🔗 **Live Site:** https://developer-portfolio-nine-zeta.vercel.app/
 📦 **Repo:** [github.com/Alfee123-web/developer-portfolio](https://github.com/Alfee123-web/developer-portfolio)
@@ -9,13 +9,16 @@ A personal portfolio site built with React + Vite, showcasing full-stack project
 
 ## ✨ Features
 
-- Animated waveform signature in the hero section (canvas-based, respects `prefers-reduced-motion`)
-- Scroll-triggered reveal animations across sections
-- Responsive layout with a mobile navigation menu
+- Black-and-white theme with a glowing orange horizon hero and animated gradient accents
+- Glow cards with a cursor-follow spotlight, each project and skill group in its own colour
+- Scroll-triggered reveal animations across all sections
+- Certificates section showcasing completed courses and trainings
+- Coding section with a GitHub contribution chart and a LeetCode stats card (solved ring, difficulty bars, animated counters)
 - Categorized technical skills (Languages, Frontend, Backend, Databases, Auth & Cloud, Tooling)
 - Detailed project cards with live demo and source code links
-- Downloadable résumé (PDF) with properly configured routing and download attributes
-- Direct contact links (email, GitHub, LinkedIn, LeetCode)
+- Downloadable one-page résumé (PDF)
+- Fully responsive layout with a mobile navigation menu
+- Respects `prefers-reduced-motion` for accessibility
 
 ---
 
@@ -23,8 +26,8 @@ A personal portfolio site built with React + Vite, showcasing full-stack project
 
 | Layer | Tools |
 |---|---|
-| Framework | React (Vite) |
-| Styling | Custom CSS (embedded, no external framework) |
+| Framework | React 19 (Vite) |
+| Styling | Plain CSS with custom properties (no external UI framework) |
 | Fonts | Space Grotesk, Inter, JetBrains Mono (Google Fonts) |
 | Deployment | Vercel |
 
@@ -35,16 +38,24 @@ A personal portfolio site built with React + Vite, showcasing full-stack project
 ```text
 alfee-portfolio/
 ├── public/
+│   ├── certs/
+│   │   ├── delta.png
+│   │   ├── dsa.png
+│   │   └── aws.png
 │   ├── profile-photo.jpeg
-│   └── Alfee_Khan_Resume latest 2.pdf
+│   └── Alfee_Khan_Resume.pdf
 ├── src/
-│   ├── App.jsx        # Main portfolio component (contains resume download logic)
-│   ├── App.css
-│   ├── index.css
+│   ├── App.jsx        # Page layout and all sections
+│   ├── data.js        # Skills, projects, certificates, LeetCode stats
+│   ├── ui.jsx         # Reusable components (Reveal, GlowCard, Counter, Head)
+│   ├── index.css      # Global styles and design tokens
 │   └── main.jsx
 ├── index.html
 ├── package.json
 └── vite.config.js
+```
+
+---
 
 ## 🚀 Getting Started (Local Setup)
 
@@ -53,7 +64,7 @@ alfee-portfolio/
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/Alfee123-web/developer-portfolio.git](https://github.com/Alfee123-web/developer-portfolio.git)
+git clone https://github.com/Alfee123-web/developer-portfolio.git
 cd developer-portfolio
 ```
 
@@ -78,6 +89,10 @@ npm run build
 
 ## 📦 Featured Projects
 
+### 🔄 [RenewVault](https://github.com/Alfee123-web/renewvault)
+Subscription and renewal tracking dashboard — Next.js 16, React 19, TypeScript, Tailwind CSS v4, PostgreSQL, Prisma, Auth.js, Resend.
+🔗 [Live Demo](https://www.renewvault.me/)
+
 ### 🌊 [Wanderly](https://github.com/Alfee123-web/Wanderly)
 Full-stack Airbnb-style rental listing platform — Node.js, Express, MongoDB, EJS, Passport.js, Cloudinary, Mapbox GL JS.
 🔗 [Live Demo](https://wanderly-three-opal.vercel.app)
@@ -86,9 +101,13 @@ Full-stack Airbnb-style rental listing platform — Node.js, Express, MongoDB, E
 Real-time weather dashboard built with React (Vite) and Material UI.
 🔗 [Live Demo](https://weather-app-material-ui.vercel.app)
 
-### 🔄 RenewVault
-A full-stack subscription and renewal tracking web application that helps users manage recurring subscriptions, upcoming renewals, and reminders in a clean, responsive dashboard.
-🔗 [Live Demo](https://www.renewvault.me/)
+---
+
+## 🎓 Certifications
+
+- Delta — Full Stack Web Development (Apna College)
+- Data Structures & Algorithms in C++ (Apna College)
+- AWS & Cloud Computing (GRAStech · Learnovate)
 
 ---
 
