@@ -2,7 +2,7 @@
 
 A modern, animated developer portfolio built with React + Vite, showcasing full-stack projects, technical skills, certifications, coding profiles, and a downloadable resume.
 
-🔗 **Live Site:** alfeekhan.vercel.app
+🔗 **Live Site:** [alfeekhan.vercel.app](https://alfeekhan.vercel.app/)
 📦 **Repo:** [github.com/Alfee123-web/developer-portfolio](https://github.com/Alfee123-web/developer-portfolio)
 
 ---
